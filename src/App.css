@@ -1,0 +1,9 @@
+body {
+  background-image: url('./assets/background1.jpeg'); /* Specifies the URL of the background image */
+  background-repeat: no-repeat; /* Specifies that the background image should not be repeated */
+  background-size: cover; /* Specifies that the background image should cover the entire element */
+  background-position: center center; /* Specifies the position of the background image (centered horizontally and vertically) */
+  background-attachment: fixed; /* Specifies that the background image should be fixed and not scroll with the content */
+  background-color: #cccccc; /* Fallback background color in case the image is not available or fails to load */
+  font-family: "Gill Sans", sans-serif;
+}

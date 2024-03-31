@@ -1,0 +1,333 @@
+.icon {
+  position: fixed;
+  top: 0;
+  right: 0;
+  margin-top: 20px;
+  margin-right: 20px;
+  height: 30px;
+  color: rgb(0, 0, 0);
+}
+
+.heading {
+  margin-left: 10px;
+  color: rgb(0, 0, 0);
+}
+
+.main-section {
+  position: relative;
+  height: 600px;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 20px;
+}
+
+.btn {
+  background-color: #89cff0;
+  position: absolute;
+  top: 20px;
+  right: 10px;
+  margin-right: 30px;
+  width: 200px;
+  height: 27px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+btn:hover {
+  background-color: #f5f5f5;
+}
+
+.btn:focus {
+  outline: none;
+  border-color: #aaa;
+}
+
+.sp {
+  margin-top: 20px;
+  margin-left: 20px;
+  color: #000000;
+  font-weight: 700;
+}
+
+.inp {
+  margin-left: 20px;
+  border-radius: 4px;
+}
+
+.dropdown {
+  margin-left: 20px;
+  height: 20px;
+  width: 100px;
+  border-radius: 4px;
+}
+
+.date {
+  margin-left: 20px;
+  height: 20px;
+  width: 160px;
+  border-radius: 4px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.card {
+  width: 270px;
+  height: 450px;
+  padding: 5px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  overflow: auto;
+}
+
+.card-heading-pending {
+  background-color: #8f8686;
+  color: #fff;
+  padding: 10px 0;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  margin-bottom: 20px;
+  font-family: "Gill Sans", sans-serif;
+  text-align: center;
+}
+
+.card-heading-in-progress {
+  background-color: #babd00;
+  color: #fff;
+  padding: 10px 0;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  margin-bottom: 20px;
+  font-family: "Gill Sans", sans-serif;
+  text-align: center;
+}
+
+.card-heading-completed {
+  background-color: #388c15;
+  color: #fff;
+  padding: 10px 0;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  margin-bottom: 20px;
+  font-family: "Gill Sans", sans-serif;
+  text-align: center;
+}
+
+.card-heading-defferd {
+  background-color: #e423a7;
+  color: #fff;
+  padding: 10px 0;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  margin-bottom: 20px;
+  font-family: "Gill Sans", sans-serif;
+  text-align: center;
+}
+
+.card-heading-deployed {
+  background-color: #140e3b;
+  color: #fff;
+  padding: 10px 0;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  margin-bottom: 20px;
+  font-family: "Gill Sans", sans-serif;
+  text-align: center;
+}
+
+.add-task {
+  text-align: center;
+}
+
+.prop {
+  background: rgb(255, 247, 247);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 247, 247, 1) 0%,
+    rgba(231, 193, 227, 1) 17%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  border: 2px solid rgb(183, 183, 183);
+  border-radius: 10px;
+  height: 500px;
+  width: 430px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  position: fixed;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+  z-index: 100;
+}
+
+.task-heading {
+  background-color: rgb(255, 255, 255);
+  font-size: 1.5rem;
+  margin: 0px;
+  height: 45px;
+}
+
+.cross-btn {
+  position: absolute;
+  top: 2px;
+  right: 5px;
+  padding: 5px;
+  font-size: 1.3rem;
+  line-height: 1;
+  font-weight: 600;
+  display: block;
+  background-color: rgb(255, 255, 255);
+  border: 2px solid black;
+  border-radius: 50%;
+}
+
+.inp-fields {
+  background-color: white;
+}
+
+.title {
+  text-align: start;
+  margin: 15px;
+}
+
+#task-name {
+  height: 20px;
+  width: 300px;
+  margin-bottom: 10px;
+}
+
+textarea {
+  height: 100px;
+  width: 300px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+}
+
+.add-btn {
+  color: white;
+  background-color: #4299e1;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  border-radius: 0.25rem;
+}
+
+.add-btn:hover {
+  opacity: 0.7;
+}
+
+.heading-task-name {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.edit-btn {
+  background-color: #cbd5e0; /* Gray-400 color */
+  color: white; /* White text color */
+  text-transform: uppercase; /* Uppercase text */
+  font-weight: 600; /* Semibold font weight */
+  padding: 0.375rem 0.75rem; /* Equivalent to Tailwind's py-1.5 and px-3 */
+  border-radius: 0.375rem; /* Equivalent to Tailwind's rounded-lg */
+}
+
+.dlt-btn {
+  margin-left: 40%;
+  background-color: #ff4d4f; /* Reddish background color */
+  color: white; /* Text color */
+  border: none; /* Remove default border */
+  padding: 8px 16px; /* Adjust padding as needed */
+  border-radius: 4px; /* Add border radius for rounded corners */
+  font-size: 16px; /* Font size */
+  cursor: pointer; /* Show pointer cursor on hover */
+  transition: background-color 0.3s ease; /* Smooth transition for background color change */
+}
+
+.dlt-btn:hover {
+  background-color: #ff3333; /* Darker shade of red on hover */
+}
+
+.assigne {
+  height: 20px;
+  width: 300px;
+  margin-bottom: 10px;
+  text-align: start;
+  margin: 15px;
+}
+
+.team {
+  height: 20px;
+  width: 300px;
+  margin-bottom: 10px;
+  text-align: start;
+  margin: 15px;
+}
+
+.up-edit-btn {
+  margin-left: 20px;
+  height: 20px;
+  width: 100px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.assigne-display {
+  margin-left: 10px;
+}
+
+.dragable {
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  .icon {
+    position: fixed; /* Ensure fixed positioning */
+    top: 0; /* Align to the top of the screen */
+    right: 0; /* Align to the right of the screen */
+    margin-top: 10px; /* Adjust spacing from the top */
+    margin-right: 10px; /* Adjust spacing from the right */
+  }
+  .main-section {
+    height: auto;
+  }
+  .btn {
+    position: static;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 200px;
+    margin-top: 20px;
+  }
+  .card-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .card {
+    width: 50%;
+  }
+  .prop {
+    width: 90%;
+    max-width: 400px;
+  }
+  #task-name,
+  textarea {
+    width: 90%;
+    max-width: 300px;
+  }
+  .add-btn {
+    width: 90%;
+    max-width: 200px;
+  }
+}
